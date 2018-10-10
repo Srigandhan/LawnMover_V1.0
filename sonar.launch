@@ -1,0 +1,11 @@
+<launch>
+
+
+    <node pkg="lawn_mower" type="publish_sonar_data.py" name="sonarDataPublishNode" output="screen" >
+     <param name="portname" value="/dev/ttyACM0" />
+    </node>
+    <!-- Launch robot_localization and navsat
+    <include file="$(find lawn_mower)/launch/include/localization_run.launch"/> 
+    -->
+
+</launch>

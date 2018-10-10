@@ -1,0 +1,8 @@
+<launch>
+
+	<!-- Stop Mower -->
+    	<node pkg="lawn_mower" type="stop_mower.py" name="stopMower">
+    	</node>
+
+
+</launch>
